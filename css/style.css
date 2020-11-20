@@ -1,0 +1,659 @@
+@import url("/fonts/Gotham Pro/font.css");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.offices {
+  margin-bottom: 88px;
+}
+
+.offices__title {
+  font-family: "Gotham Pro";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25px;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.offices__office + .offices__office {
+  margin-top: 16px;
+}
+
+.offices__office {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #fff;
+  height: 71px;
+  padding-left: 38px;
+  padding-right: 30px;
+  border-radius: 5px;
+}
+
+.offices__office-hidden {
+  display: none !important;
+}
+
+.offices__office-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.offices__office-rait {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offices__office-number {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #3e3b4a;
+  margin-right: 38px;
+}
+
+.offices__office-logo {
+  width: 107px;
+  margin-right: 25px;
+}
+
+.offices__office-logo img {
+  display: block;
+}
+
+.offices__office-title {
+  font-size: 16px;
+  line-height: 24px;
+  color: #33312c;
+  width: 85px;
+}
+
+.offices__office-stars {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+}
+
+.offices__office-stars img {
+  display: block;
+}
+
+.offices__office-stars img + img {
+  margin-left: 9px;
+}
+
+.offices__office-gift {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 170px;
+}
+
+.offices__office-gift img {
+  display: block;
+}
+
+.offices__office-gift-price {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  margin-left: 15px;
+}
+
+.offices__office-buttons-btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
+.offices__office-buttons button + button {
+  margin-left: 23px;
+}
+
+.offices__office-buttons-btn:nth-child(1) {
+  background-color: transparent;
+  border: 1px solid #67bc6d;
+  padding: 9px 15px;
+}
+
+.offices__office-buttons-btn:nth-child(1):hover {
+  background-color: #93d497;
+}
+
+.offices__office-buttons-btn:nth-child(2) {
+  background-color: transparent;
+  border: 1px solid #dadada;
+  padding: 9px 15px;
+}
+
+.offices__office-buttons-btn:nth-child(2):hover {
+  background-color: #868383;
+}
+
+.offices__office-buttons-btn:nth-child(3) {
+  background: #e2455a;
+  color: #fff;
+  border: none;
+  padding: 9px 21px;
+}
+
+.offices__office-buttons-btn:nth-child(3):hover {
+  background-color: #bd394a;
+}
+
+.offices__show {
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #191925;
+  width: 178px;
+  height: 42px;
+  margin: 0 auto;
+  margin-top: 23px;
+  -webkit-transform: skew(-20deg);
+          transform: skew(-20deg);
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
+.offices__show div {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+}
+
+.offices__show:hover {
+  background-color: #838383;
+}
+
+.content__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 36px;
+}
+
+.content__header-title {
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0;
+}
+
+.content__header-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  text-transform: uppercase;
+  margin: 0;
+  margin-left: auto;
+}
+
+.content__header-menu li button {
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #7a798a;
+  background-color: transparent;
+  padding: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.content__header-menu li button:focus {
+  color: #5a3ec4;
+}
+
+.content__header-menu li + li {
+  margin-left: 13px;
+}
+
+.content__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content__main-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 776px;
+}
+
+.content__main-cards-card {
+  width: 380px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 12px 39px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 12px 39px rgba(0, 0, 0, 0.07);
+  border-radius: 7px;
+  padding: 16px 16px 13px 22px;
+  margin-bottom: 13px;
+}
+
+.content__main-cards-card-category {
+  margin: 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #5a3ec4;
+  margin-bottom: 1px;
+}
+
+.content__main-cards-card-title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.content__main-cards-card-person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 12px;
+}
+
+.content__main-cards-card-person img {
+  display: block;
+  margin-right: 10px;
+}
+
+.content__main-cards-card-person-name {
+  font-weight: 400;
+  font-size: 14px;
+  color: #c1c0cd;
+}
+
+.content__main-cards-card-person-coefficient {
+  margin-left: auto;
+}
+
+.content__main-cards-card-person-coefficient h1 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #403e51;
+  margin: 0;
+  text-align: right;
+}
+
+.content__main-cards-card-person-coefficient p {
+  font-weight: 400;
+  font-size: 11px;
+  color: #c1c0cd;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.content__main-cards-card-line {
+  background-color: #f5f5f6;
+  height: 1px;
+}
+
+.content__main-cards-card-match {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 12px;
+}
+
+.content__main-cards-card-match-command {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #403e51;
+  margin: 0;
+}
+
+.content__main-cards-card-match-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content__main-cards-card-match-left img {
+  display: block;
+  margin-right: 9px;
+}
+
+.content__main-cards-card-match-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content__main-cards-card-match-right img {
+  display: block;
+  margin-left: 9px;
+}
+
+.content__main-cards-card-match-date {
+  font-weight: 600;
+  font-size: 11px;
+  text-align: center;
+  color: #c1c0cd;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.content__main-cards-card-match-time {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+  color: #403e51;
+  margin: 0;
+}
+
+.content__main-sidebar {
+  max-width: 380px;
+}
+
+.content__main-sidebar-promo img {
+  display: block;
+}
+
+.content__show {
+  font-family: "Gotham Pro";
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #191925;
+  width: 178px;
+  height: 42px;
+  margin: 0 auto;
+  margin-top: 23px;
+  -webkit-transform: skew(-20deg);
+          transform: skew(-20deg);
+  border: 1px solid #dadada;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-transition: background-color 0.3s ease-in;
+  transition: background-color 0.3s ease-in;
+}
+
+.content__show div {
+  -webkit-transform: skew(20deg);
+          transform: skew(20deg);
+}
+
+.content__show:hover {
+  background-color: #838383;
+}
+
+.qwerty {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.offices__office-stars {
+  margin-left: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 976px;
+  }
+  .offices__office {
+    padding-left: 18px;
+    padding-right: 10px;
+  }
+  .offices__office-gift {
+    margin-right: 60px;
+  }
+  .offices__office-buttons button + button {
+    margin-left: 5px;
+  }
+  .content__main {
+    margin: 0 auto;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+@media (max-width: 976px) {
+  .container {
+    max-width: 767px;
+  }
+  .offices__office {
+    padding-left: 8px;
+    padding-right: 5px;
+  }
+  .offices__office-number {
+    margin-right: 8px;
+  }
+  .offices__office-logo {
+    width: 67px;
+    margin-right: 25px;
+  }
+  .offices__office-gift {
+    margin-right: 20px;
+    margin-left: 40px;
+  }
+  .offices__office-buttons-btn {
+    padding: 5px 8px !important;
+  }
+  .offices__office-buttons button + button {
+    margin-left: 5px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .offices {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 44px;
+  }
+  .offices__office + .offices__office {
+    margin-bottom: 16px;
+    margin-top: 0px;
+  }
+  .offices__title {
+    padding-right: 65px;
+    padding-left: 65px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .offices__office {
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+  }
+  .offices__office-name {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .offices__office-rait {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .offices__office-number {
+    margin: 0;
+    margin-right: 8px;
+  }
+  .offices__office-title {
+    margin: 0;
+  }
+  .offices__office-logo {
+    width: 67px;
+    margin-right: 8px;
+  }
+  .offices__office-gift-price {
+    margin: 0;
+    margin-left: 10px;
+    padding-top: 3px;
+  }
+  .offices__office-buttons-btn {
+    padding: 5px 8px !important;
+  }
+  .offices__office-buttons button + button {
+    margin-left: 5px;
+  }
+  .content__header {
+    display: block;
+  }
+  .content__header-title {
+    text-align: center;
+    font-size: 14px;
+  }
+  .content__header-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    padding: 0 5px;
+  }
+  .content__header-menu ul {
+    text-align: center;
+  }
+  .content__header-menu li {
+    display: inline-block;
+  }
+  .content__header-menu li button {
+    font-size: 12px;
+  }
+  .content__main {
+    display: block;
+    margin: 0 auto;
+  }
+  .content__main-cards {
+    display: block;
+    margin: 0 auto;
+  }
+  .content__main-cards-card {
+    width: 320px;
+    padding: 5px 10px;
+    margin: 0 auto 15px;
+  }
+  .content__main-sidebar {
+    margin: 0 auto;
+  }
+  .content__main-sidebar img {
+    width: 320px;
+    margin: 0 auto;
+    display: block;
+  }
+}
